@@ -281,7 +281,7 @@ class Editor extends React.Component {
     }
     this._cm.doc.setCursor({ line: currentPosition.line, ch: currentPosition.ch });
   }
-
+  
   initializeDocuments(files) {
     this._docs = {};
     files.forEach((file) => {
